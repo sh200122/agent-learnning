@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx --env-file=.env src/agent.ts"
+    "dev": "tsx --env-file=.env src/example02.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,10 @@
     "@types/node": "^24.19.2",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "openai": "^7.45.1",
+    "zod": "^4.6.7"
   }
 }
